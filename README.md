@@ -25,16 +25,16 @@ This project fork from [flaskbb](https://github.com/sh4nks/flaskbb)
 For a complete installation guide please visit the installation documentation
 [here](https://flaskbb.readthedocs.org/en/latest/installation.html).
 
-* Create a virtualenv
-* Install the dependencies
-    * `pip install -r requirements.txt`
-* Configuration (_adjust them accordingly to your needs_)
-    * For development copy `flaskbb/configs/development.py.example` to `flaskbb/configs/development.py`
-* Create the database & populate it
-    * `python manage.py populate`
-* Run the development server
-    * `python manage.py runserver`
-* Visit [localhost:8080](http://localhost:8080)
+    pip install -r requirements.txt
+    
+    cp flaskbb/configs/development.py.example flaskbb/configs/development.py
+    
+    python manage.py populate
+    
+    python manage.py runserver
+    
+    # open browser
+    #localhost:8080
 
 
 ## DOCUMENTATION
@@ -44,4 +44,4 @@ The documentation is located [here](http://flaskbb.readthedocs.org/en/latest/).
 
 ## ACKNOWLEDGEMENTS
 
-[flask](http://reddit.com/r/flask), [Flask](http://flask.pocoo.org), it's [extensions](http://flask.pocoo.org/extensions/) and everyone who has helped me!
+[Flask](http://reddit.com/r/flask), [Flask](http://flask.pocoo.org), it's [extensions](http://flask.pocoo.org/extensions/) and everyone who has helped me!
