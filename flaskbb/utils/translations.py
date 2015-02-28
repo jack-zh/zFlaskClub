@@ -54,7 +54,10 @@ class FlaskBBDomain(Domain):
                     locales=locale,
                     domain="messages"
                 )
-                translations.add(plugin_translation)
+                if hasattr(translations, "add"):
+                    translations.add(plugin_translation)
+                else:
+                    print(translations)
 
             cache[str(locale)] = translations
 
