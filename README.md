@@ -25,9 +25,13 @@ This project fork from [flaskbb](https://github.com/sh4nks/flaskbb)
 For a complete installation guide please visit the installation documentation
 [here](https://flaskbb.readthedocs.org/en/latest/installation.html).
 
+    sudo apt-get install redis-server    
+
     pip install -r requirements.txt
     
     cp flaskbb/configs/development.py.example flaskbb/configs/development.py
+
+    cp flaskbb/configs/production.py.example flaskbb/configs/production.py    
     
     python manage.py populate
     
