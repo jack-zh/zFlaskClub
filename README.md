@@ -1,12 +1,8 @@
-[![Build Status](https://travis-ci.org/sh4nks/flaskbb.svg?branch=master)](https://travis-ci.org/sh4nks/flaskbb)
-[![Coverage Status](https://coveralls.io/repos/sh4nks/flaskbb/badge.png)](https://coveralls.io/r/sh4nks/flaskbb)
-[![Code Health](https://landscape.io/github/sh4nks/flaskbb/master/landscape.svg?style=flat)](https://landscape.io/github/sh4nks/flaskbb/master)
-[![License](https://img.shields.io/badge/license-BSD-blue.svg)](https://flaskbb.org)
-
 # INTRODUCTION
 
-[FlaskBB](http://flaskbb.org) is a forum software written in python
-using the micro framework Flask.
+[zFlaskClub](http://flaskbb.org) is a forum software written in python using the micro framework Flask.
+
+This project fork from [flaskbb](https://github.com/sh4nks/flaskbb)
 
 
 ## FEATURES
@@ -22,10 +18,6 @@ using the micro framework Flask.
 * Completely Themeable
 * Plugin System
 
-
-## TODO
-
-* See the github [issues](https://github.com/sh4nks/flaskbb/issues?state=open)
 
 
 ## INSTALLATION
@@ -50,11 +42,6 @@ For a complete installation guide please visit the installation documentation
 The documentation is located [here](http://flaskbb.readthedocs.org/en/latest/).
 
 
-## LICENSE
-
-[BSD LICENSE](http://flask.pocoo.org/docs/license/#flask-license)
-
-
 ## ACKNOWLEDGEMENTS
 
-[/r/flask](http://reddit.com/r/flask), [Flask](http://flask.pocoo.org), it's [extensions](http://flask.pocoo.org/extensions/) and everyone who has helped me!
+[flask](http://reddit.com/r/flask), [Flask](http://flask.pocoo.org), it's [extensions](http://flask.pocoo.org/extensions/) and everyone who has helped me!
